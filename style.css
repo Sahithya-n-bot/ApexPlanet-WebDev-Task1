@@ -1,0 +1,89 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e3f2fd, #fce4ec);
+    color: #333;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #1a237e;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.team-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.team-card h2 {
+    color: #0d47a1;
+    margin: 15px 0 10px;
+}
+
+.team-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.team-card a {
+    text-decoration: none;
+    color: #0288d1;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.team-card a:hover {
+    text-decoration: underline;
+}
+
+.btn-container {
+    margin: 40px 0;
+}
+
+button {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}
